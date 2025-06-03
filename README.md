@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🛍️ Balarama Price List Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Balarama** is a simple yet functional web platform that allows authenticated clients to browse a product list sourced from a Google Sheet, add items to a cart, and send their order via **WhatsApp or email**.
 
-## Available Scripts
+This project was originally a static price list. I was hired to turn it into a full-featured ordering system with user authentication and product interaction.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, Vite, TailwindCSS
+- **Backend**: Node.js, Express
+- **Authentication**: JSON Web Tokens (JWT), password encryption
+- **Database**: PostgreSQL
+- **External Integration**: Google Sheets API, WhatsApp link sharing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔐 **User login system** (JWT, encrypted passwords)
+- 📄 **Product listing** synced from a Google Sheet
+- 🛒 **Cart functionality** with quantity and item control
+- 📤 **Send order** via WhatsApp or email with a single click
+- 📱 Responsive design
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Project Status
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✅ User authentication module (login, registration, encrypted storage)
+- ✅ Product list integration with Google Sheets
+- ✅ Basic cart and order summary
+- 🔄 Currently adding admin tools and product filtering
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+/client   -> React frontend (Vite)
+/server   -> Node.js + Express backend
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧑‍💻 About Me
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I’m a full stack developer with a focus on web technologies, experienced in React, Angular, Node.js, and .NET. I built this platform from scratch based on client needs, focusing on clean architecture and real-world usability.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 Live Demo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[👉 View Live Project](https://balaramapricelist.onrender.com)  
+_(This is the original version; login version is under development)_
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📧 Contact
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you’re interested in similar work:  
+**Lea - Full Stack Developer**  
+📩 Upwork: [My Profile](https://www.upwork.com/) _(add your link)_  
+📬 Email: _(optional)_
