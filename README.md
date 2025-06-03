@@ -61,5 +61,5 @@ _(This is the original version; login version is under development)_
 
 Feel free to reach out if you’re interested in similar work:  
 **Lea - Full Stack Developer**  
-📩 Upwork: [My Profile](https://www.upwork.com/) _(add your link)_  
-📬 Email: _(optional)_
+📩 Upwork: [My Profile](https://www.upwork.com/) https://www.upwork.com/freelancers/~019e4b16f614d11e4b
+📬 Email: leandrodailoff@gmail.com
